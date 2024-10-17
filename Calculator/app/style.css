@@ -1,0 +1,27 @@
+.app-item {
+    display: inline-block;    /* Membuat elemen tampil secara inline */
+    text-align: center;       /* Menengahkan teks di bawah gambar */
+    margin: 20px;             /* Menambahkan jarak antara item */
+}
+
+.app-item img {
+    border-radius: 10px;      /* Membuat sudut gambar agak melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Memberikan bayangan pada gambar */
+    transition: transform 0.3s ease-in-out;  /* Animasi smooth saat gambar dihover */
+    width: 100%;              /* Pastikan gambar menyesuaikan dengan container */
+    height: 200px;             /* Menjaga rasio aspek gambar */
+}
+
+.app-item img:hover {
+    transform: scale(1.2);    /* Memperbesar gambar saat dihover */
+}
+
+.app-item p {
+    font-size: 20px;          /* Ukuran font teks */
+    color: #333;              /* Warna teks */
+    margin-top: 10px;         /* Jarak antara gambar dan teks */
+}
+
+.text-center {
+    text-align: center;       /* Menengahkan elemen teks secara global */
+}
